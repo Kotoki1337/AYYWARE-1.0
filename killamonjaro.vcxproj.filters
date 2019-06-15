@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source files\main">
+      <UniqueIdentifier>{393e8642-de99-47df-9a0e-28016684c9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\injection">
+      <UniqueIdentifier>{16582f35-dd74-401f-a2ca-882a937f1460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\utilities">
+      <UniqueIdentifier>{c47dd4be-c431-44c5-8c1c-507db9633d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\common">
+      <UniqueIdentifier>{774e3dea-56c7-43da-8802-cdda87ea2710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\source engine">
+      <UniqueIdentifier>{97e92231-4cd8-4b46-9a23-48d9d910e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\source engine\Utilities">
+      <UniqueIdentifier>{848aa256-e4d2-4ea8-9309-db9e86d6109f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\hacks">
+      <UniqueIdentifier>{b72d4168-4d56-407d-af80-4d2cc9dc3888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source files\menu">
+      <UniqueIdentifier>{d8551803-e03b-4a1d-9348-77a3b6d8dce3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="header files\main">
+      <UniqueIdentifier>{f35d2386-0715-4ca6-a6ee-e284fbe52038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\injection">
+      <UniqueIdentifier>{3a189db4-5866-4144-8124-a0f1e638eb74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\utilities">
+      <UniqueIdentifier>{87feeece-c402-47ba-872f-a869b2fa7903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\common">
+      <UniqueIdentifier>{cdb75eb7-c41f-4de9-b3ff-9b458e3bee68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\source engine">
+      <UniqueIdentifier>{79f553df-80ec-4baa-9de8-7f3b4021b7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\source engine\Classes">
+      <UniqueIdentifier>{95b6a8ad-f5ef-4427-9324-a28a6bc37012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\source engine\Utilities">
+      <UniqueIdentifier>{97502edc-397e-4e71-8ced-f65226726bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\hacks">
+      <UniqueIdentifier>{6590f395-ca41-4ad2-bb02-689b104a0188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header files\menu">
+      <UniqueIdentifier>{247d3e79-3786-45f2-975d-64656f2eac19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DLLMain.h">
+      <Filter>header files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h">
+      <Filter>header files\injection</Filter>
+    </ClInclude>
+    <ClInclude Include="INJ\ReflectiveLoader.h">
+      <Filter>header files\injection</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>header files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>header files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaInfo.h">
+      <Filter>header files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDefinitions.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientRecvProps.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC32.h">
+      <Filter>header files\source engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>header files\source engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>header files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>header files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>header files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL Functions.h">
+      <Filter>header files\source engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>header files\source engine\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>header files\source engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Dumping.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscHacks.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>header files\source engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAntiAim.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="winwindef.h">
+      <Filter>header files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>header files\hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Animfix.h">
+      <Filter>header files\main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>source files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="INJ\ReflectiveLoader.cpp">
+      <Filter>source files\injection</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>source files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaInfo.cpp">
+      <Filter>source files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="CRC32.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>source files\source engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>source files\source engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>source files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>source files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Hacks.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>source files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Visual.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL Functions.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Dumping.cpp">
+      <Filter>source files\source engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscHacks.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAntiAim.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>source files\source engine\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>source files\hacks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hooks.backup">
+      <Filter>source files\main</Filter>
+    </None>
+  </ItemGroup>
+</Project>
