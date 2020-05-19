@@ -1,2 +1,2 @@
 # AYYWARE-1.0
-这是一个废弃项目
+This scoure code from 2k18
